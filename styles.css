@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+.field {
+    text-align: center;
+    font-size: large;
+    width: 50%;
+}
+
+#card {
+    margin-top: 5rem;
+}
+
+.container {
+    margin-left: 35rem;
+}
+
+.wrapper {
+   margin-left: 41rem;
+}

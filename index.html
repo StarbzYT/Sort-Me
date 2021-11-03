@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    <h1>Sort Your Text</h1>
+    <div class="container">
+        <div class="ui form"><grammarly-extension data-grammarly-shadow-root="true" style="position: absolute; top: 0px; left: 0px; pointer-events: none;" class="cGcvT"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" style="mix-blend-mode: darken; position: absolute; top: 0px; left: 0px; pointer-events: none;" class="cGcvT"></grammarly-extension>
+            <div class="field">
+            <label>Seperate words by spaces</label>
+            <textarea id="input" spellcheck="false"></textarea>
+            </div>
+            <button id="sort-button" class="ui green button">Sort</button>
+            <button id="clear-button" class="ui red button">Clear</button>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div id="card" class="ui cards">
+            <div class="card">
+              <div class="content">
+                <div class="header">Type Text To See It Sorted Below</div>
+                <div class="meta">Sorted Text</div>
+                <div id ="sorted" class="description">
+                </div>
+              </div>
+        </div>
+    </div>
+</body>
+</html>
